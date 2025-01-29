@@ -174,4 +174,4 @@ def print_fixations_userset(user_set: int, path: str):
 
 
 if __name__ == "__main__":
-    print_fixations_userset(path="oasstetc/", user_set=2)
+    print_fixations_userset(path="oasstetc_data/", user_set=2)

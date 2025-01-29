@@ -149,7 +149,7 @@ class EyeTrackingAnalyser:
         return pe
 
     @staticmethod
-    def compute_texts(path="oasstetc/data/"):
+    def compute_texts(path="oasstetc_data/data/"):
         datauserset = EyeTrackingDataUserSet()
         for user_set in range(1, 9):
             folder = path + "set_" + str(user_set) + "/"
@@ -176,7 +176,7 @@ class EyeTrackingAnalyser:
         return True
 
     @staticmethod
-    def compute_trial_prompts(path="oasstetc/raw_data/"):
+    def compute_trial_prompts(path="oasstetc_data/raw_data/"):
         texts_prompts = pd.DataFrame()
         for user_set in list(range(1, 9)):
             user = user_set
@@ -1112,7 +1112,7 @@ class EyeTrackingAnalyser:
                     print(e)
 
     @staticmethod
-    def compute_n_instances(path="oasstetc/gaze_features_real/"):
+    def compute_n_instances(path="oasstetc_data/gaze_features_real/"):
         n_instances_user_set = {}
         for user_set in list(range(1, 9)):
             with open(path + "set_" + str(user_set) + "/info_trials.json", "r") as file:

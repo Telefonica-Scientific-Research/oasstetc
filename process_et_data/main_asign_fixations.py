@@ -115,7 +115,7 @@ if __name__ == "__main__":
     }
     # users = {1: 1, 2: 2}
     sessions = [1]
-    path = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc/raw_data"
+    path = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/raw_data"
 
     EyeTrackingAnalyser.compute_fixations_process_and_save(
         users=users, sessions=sessions, path=path
