@@ -17,7 +17,7 @@ if __name__ == "__main__":
         type=str,
         default="attention",
     )
-    path = "oasstetc/"
+    path = "oasstetc_data/"
     args = parser.parse_args()
     filter_completed = str(args.filter_completed).lower() == "true"
     folder_attention = args.folder_attention

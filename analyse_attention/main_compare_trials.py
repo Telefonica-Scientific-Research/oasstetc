@@ -29,7 +29,7 @@ if __name__ == "__main__":
     # folder_attention = "attention"
     # filter_completed = False
 
-    path = "oasstetc/"
+    path = "oasstetc_data/"
     models = {
         # -----------------------------------------------
         # "google-bert/bert-base-uncased": "BertBased",

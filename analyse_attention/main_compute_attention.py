@@ -7,7 +7,7 @@ from models.human_att import HumanAttentionExtractor
 from models.model_att import ModelAttentionExtractor
 import argparse
 
-path = "oasstetc/"
+path = "oasstetc_data/"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="")
     parser.add_argument(

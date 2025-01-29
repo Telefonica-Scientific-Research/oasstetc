@@ -15,7 +15,7 @@ class HumanAttentionExtractor:
             fixations_trials[trial] = datauserset._read_coor_trial(file)
         return fixations_trials
 
-    def load_gaze_features_all(self, path="oasstetc/gaze_features_real/"):
+    def load_gaze_features_all(self, path="oasstetc_data/gaze_features_real/"):
         fixations_trials_all = {}
         for user_set in range(1, 9):
             folder = path + "set_" + str(user_set) + "/"
@@ -30,7 +30,7 @@ class HumanAttentionExtractor:
         }
 
     @staticmethod
-    def load_trial_prompts(path="oasstetc/raw_data/"):
+    def load_trial_prompts(path="oasstetc_data/raw_data/"):
         texts_prompts = pd.read_csv(path + "text_prompts.csv", sep=";")
         return texts_prompts
 

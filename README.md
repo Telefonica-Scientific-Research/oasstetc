@@ -1,9 +1,20 @@
-# eye_llm
+# OASSTETC
 
-### LLM_EyeTracking_study
-    
+
+## Dependencies
+- See requirements.txt for full list of dependencies
+- Key packages include:
+  - OpenCV
+  - NumPy
+  - Pandas
+  - HuggingFace Hub
+  - PyTorch
+
 
 ### process_et_data and generate reading measures
+    - Main functionality for processing eye tracking data and generating reading measures
+    - Contains classes for handling text and image-based eye tracking data
+
     ## Assign fixations to words:
 
     For each user and session, we have:
@@ -26,20 +37,22 @@
     run `python process_et_data/main.py` to compute reading measures per user and per user set
         (EyeTrackingAnalyser().average_gaze_features_real_participants(path, path_save))
 
-
 ### generate_syntethic_readingmeasures
-    Code to generate synthetic fixations for the text used in the lab and then be able to compare ir. 
+    Code to generate synthetic fixations for the text used in the lab and then be able to compare it. 
+    run `python generate_syntethic_readingmeasures/main_generate_synthetic_fixations.py` to generate the synthetic fixations
 
 ### analyse_reading_measures
     Code to analyse the reading measures obtained from the eye tracking data.
 
 ### analyse_attention
     ## Compute attention of each model:
-    run `python analyse_attention/main_compute_attention.py` 
-    with this models you  can compute the attention of the response of the combination fo the promtp and the response (for the reward model):
-    * "openbmb/UltraRM-13b": "ultraRM",
-    *"openbmb/Eurus-RM-7b": "eurus",
-    *"nicolinho/QRM-Llama3.1-8B": "QRLlama",
+    - Attention analysis for language models
+    - Supports multiple models:
+        run `python analyse_attention/main_compute_attention.py` 
+    - With this models you  can compute the attention of the response of the combination fo the promtp and the response (for the reward model):
+        * openbmb/UltraRM-13b (ultraRM)
+        * openbmb/Eurus-RM-7b (eurus)
+        * nicolinho/QRM-Llama3.1-8B (QRLlama)
 
 
 

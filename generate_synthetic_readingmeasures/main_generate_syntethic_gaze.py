@@ -45,8 +45,8 @@ if __name__ == "__main__":
     # load lab data and compute sentences
     # be carefull with the text and the words generate with the OR
     parent_path = str(pathlib.Path(__file__).parent.resolve().parent.resolve())
-    path = parent_path + "/oasstetc/gaze_features_real/"
-    path_syn = parent_path + "/oasstetc/gaze_features_synthetic/"
+    path = parent_path + "/oasstetc_data/gaze_features_real/"
+    path_syn = parent_path + "/oasstetc_data/gaze_features_synthetic/"
 
     datauserset = EyeTrackingDataUserSet()
 

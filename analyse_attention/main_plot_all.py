@@ -3,7 +3,7 @@ import pandas as pd
 
 
 # Define the path and files (same as your code)
-path = "oasstetc/attention/results/"
+path = "oasstetc_data/attention/results/"
 level = "trials"
 files = {
     "completed/correlation_" + level + "_fix_duration.csv": "TRT_f",
