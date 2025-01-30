@@ -44,6 +44,21 @@
 ### analyse_reading_measures
     Code to analyse the reading measures obtained from the eye tracking data.
 
+    This module analyzes reading measures extracted from eye-tracking data. It includes processing real and synthetic eye-tracking metrics, computing statistical comparisons, and visualizing results.
+    
+    Features of the scripts:
+    - Processes eye-tracking data to compute reading measures, such as fixation duration, first fixation duration, and fixation count.
+    - Compares reading metrics between preferred and non-preferred conditions.
+    - Computes statistical tests (paired) to assess differences between conditions.
+    - Supports real and synthetic data analysis.
+    - Synchronizes physiological data (EDA) with eye-tracking data to analyze correlations.
+    - Produce boxplot figures as seen in Figure 3/4/5. 
+
+    run `python analyse_readingmeasures/Figure_3_Total_words_and_length_by_condition.py` to generate Figure 3 (Total words and length by condition)
+    run `python analyse_readingmeasures/Figure_4_and_5_Reading_measures_Sythetic_and_organic_data.py` to generate Figure 4/5 (Reading measurements in synthetic and organic data)
+    run `analyse_readingmeasures/Table_7_EDA_analysis.py` to generate table 7 (EDA analysis)
+   
+
 ### analyse_attention
     ## Compute attention of each model:
     - Attention analysis for language models
