@@ -56,9 +56,9 @@ if __name__ == "__main__":
 
     # ---------------------------craete gaze_feature_real-------------------------------------
     # it average the reading measures per uset set (1-8)
-    # path = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/raw_data"
-    # path_save = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/gaze_features_real/"
-    # EyeTrackingAnalyser().average_gaze_features_real_participants(path, path_save)
+    path = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/raw_data"
+    path_save = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/gaze_features_real/"
+    EyeTrackingAnalyser().average_gaze_features_real_participants(path, path_save)
     # ----------------------------------------------------------------
 
     # --------------------------concatenate texts and save them--------------------------------------
