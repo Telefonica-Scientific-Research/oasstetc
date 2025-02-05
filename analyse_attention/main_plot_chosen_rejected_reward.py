@@ -2,10 +2,11 @@ from models.plotter import Plotter
 import pandas as pd
 
 from models.compare_att import CompareAttention
-
+import pathlib
 # Define the path and files (same as your code)
-path_normal = "oasstetc_data/attention/results/"
-path_reward = "oasstetc_data/attention_reward/results/"
+path = str(pathlib.Path(__file__).parent.resolve().parent.resolve())
+path_normal = path + "/oasstetc_data/attention/results/"
+path_reward = path + "/oasstetc_data/attention_reward/results/"
 level = "trials"
 files = {
     # "completed/correlation_" + level + "_fix_duration.csv": "TRT_f",

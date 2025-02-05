@@ -65,12 +65,27 @@
 ### analyse_attention
     ## Compute attention of each model:
     - Attention analysis for language models
-    - Supports multiple models:
+    - Computing attention:
         run `python analyse_attention/main_compute_attention.py` 
-    - With this models you  can compute the attention of the response of the combination fo the promtp and the response (for the reward model):
-        * openbmb/UltraRM-13b (ultraRM)
-        * openbmb/Eurus-RM-7b (eurus)
-        * nicolinho/QRM-Llama3.1-8B (QRLlama)
+        - We can compute the attention and the attention with the reward model configuration.
+        - --reward=True: compute the attention with the reward model configuration.
+        -- It will save results in the folder attention or attention_reward
+        - With reward models you can compute the attention of the response of the combination fo the promtp and the response (reward model configuration):
+            * openbmb/UltraRM-13b (ultraRM)
+            * openbmb/Eurus-RM-7b (eurus)
+            * nicolinho/QRM-Llama3.1-8B (QRLlama)
+
+    - Comparing attention with reading measures:
+        run `python analyse_attention/main_compute_compare_trials.py`
+        Loading the computted attention and the reading measures, it computes the correlation between the attention of the response and the reading measures. 
+        - --filter_completed: You can filter for unanimous responses (or all) and it saves separatly results for the chosen and the rejected ones.  
+        - --folder_attention: You can choose the folder to load the attention (attention or attention_reward)
+
+    - Plotting attention per layer:
+        run `python analyse_attention/main_plot_attention_layers.py`
+        - It plots the attention per layer for the chosen model.
+        - You can choose the model and the gaze features to plot.
+        - folder_attention: You can choose the folder to load the attention (attention or attention_reward)
 
 
 
