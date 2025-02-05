@@ -1,9 +1,0 @@
-Gazepoint Analysis,v6.11.0
-Processed on,Wed Sep 18 10:53:28 2024
-
-Note: -1 values indicate an AOI that was never viewed
-AOI Summary
-Media ID, Media Name, Media Duration (sec - U=UserControlled), AOI ID, AOI Name, AOI Start (sec), AOI Duration (sec - U=UserControlled), Viewers (#), Total Viewers (#), Ave Time to 1st View(sec) -1.0 means not viewed, Ave Time Viewed (sec), Ave Time Viewed (%), Ave Fixations (#), Revisitors (#), Average Revisits (#), Average Clicks (#), 
-
-AOI Statistics (for each user)
-Media ID, Media Name, Media Duration (sec - U=UserControlled), AOI ID, AOI Name, AOI Start, AOI Duration (sec - U=UserControlled), User ID, User Name, User Gender, User Age, Time to 1st View (sec) -1.0 means not viewed, Time Viewed (sec), Time Viewed (%), Fixations (#), Revisits (#), Clicks (#), Ave Dial (0-1), Ave GSR (kOhm), Ave Heart Rate (BPM), Ave Interbeat Interval (s), Ave Left Pupil (mm), Ave Right Pupil (mm), 
