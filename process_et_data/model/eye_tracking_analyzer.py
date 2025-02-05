@@ -389,7 +389,6 @@ class EyeTrackingAnalyser:
                     print("Different dimensions for user set", user_set, trial)
                     print([x for x in wor_cor.keys()])
                     print([df.shape[0] for df in wor_cor.values()])
-                    print(user_set, trial)
                     wor_cor = EyeTrackingAnalyser().arrange_dimensions(
                         wor_cor, columns_to_calculate
                     )
