@@ -11,8 +11,6 @@ Code and data for the OASST-ETC (Open Assistant Eye Tracking Corpus) Dataset, wh
   - Pandas
   - HuggingFace Hub
   - PyTorch
-  - pip install git+https://github.com/anlopez94/eyetrackpy.git
-  - pip install git+https://github.com/anlopez94/tokenizer_aligner.git
 
 
 ### oasstetc_data
