@@ -51,24 +51,14 @@ if __name__ == "__main__":
     session = args.session
     trial = args.trial
     show = True
-    # -------------------- read data from text and join with eye tracking tokens --------------------
-    # trials = [4.1, 4.3, 6.1, 6.3, 7.1, 7.3, 8.1, 8.2, 8888.1, 8888.2, 9999.1, 9999.2]
-    # analyzer = EyeTrackingDataText(user, session, trial, show)
-    # analyzer.join_words_vertices()
-    # ---------------------------------------------------------------
 
-    # -------------------- compute general fetures, save then on a CSV--------------------
-    # users = [1]
-    # sessions = [2]
-    # EyeTrackingAnalyser.compute_general_features(users, sessions)
 
-    # ---------------------------------------------------------------
 
     # ---------------------------craete gaze_feature_real-------------------------------------
     # it average the reading measures per uset set (1-8)
-    path = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/raw_data"
-    path_save = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/gaze_features_real/"
-    EyeTrackingAnalyser().average_gaze_features_real_participants(path, path_save)
+    # path = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/raw_data"
+    # path_save = str(pathlib.Path(__file__).parent.resolve().parent.resolve()) + "/oasstetc_data/gaze_features_real/"
+    # EyeTrackingAnalyser().average_gaze_features_real_participants(path, path_save)
     # ----------------------------------------------------------------
 
     # --------------------------concatenate texts and save them--------------------------------------
@@ -79,7 +69,7 @@ if __name__ == "__main__":
     # EyeTrackingAnalyser().compute_trial_prompts()
     # ----------------------------------------------------------------
 
-    # -----------------------------create general infor files-----------------------------------
+    # -----------------------------create general info files-----------------------------------
     # path = "oasstetc_data/raw_data/"
     # EyeTrackingAnalyser().create_info_files(folder_path= path)
     # ----------------------------------------------------------------
