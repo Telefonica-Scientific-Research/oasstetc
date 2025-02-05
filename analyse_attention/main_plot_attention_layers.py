@@ -5,7 +5,7 @@ os.environ["PYDEVD_WARN_SLOW_RESOLVE_TIMEOUT"] = "5.0"
 
 from models.compare_att import CompareAttention
 
-path = "oasstetcc/"
+path = "oasstetc_data/"
 # models = ['nicolinho/QRM-Llama3.1-8B']
 models = {
     "microsoft/phi-1_5": "causalLM",
@@ -43,7 +43,7 @@ gaze_features_names = {
 }
 # filter_completed = True
 filter_completed = True
-path = "oasstetcc/"
+path = "oasstetc_data/"
 folder_attention = "attention"
 # ----------------------------------------
 

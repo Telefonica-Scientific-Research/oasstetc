@@ -9,6 +9,9 @@
   - Pandas
   - HuggingFace Hub
   - PyTorch
+  - pip install git+https://github.com/anlopez94/eyetrackpy.git
+  - pip install git+https://github.com/anlopez94/tokenizer_aligner.git
+
 
 
 ### process_et_data and generate reading measures
