@@ -75,7 +75,7 @@ if __name__ == "__main__":
     # ----------------------------------------------------------------
 
     # -----------------------------compute number instances complete and not complete per user set-----------------------------------
-    # EyeTrackingAnalyser().compute_n_instances()
+    EyeTrackingAnalyser().compute_n_instances()
     # ----------------------------------------------------------------
 
 

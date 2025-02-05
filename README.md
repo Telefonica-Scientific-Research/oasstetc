@@ -1,4 +1,6 @@
-# OASSTETC
+# OASST-ETC Dataset
+
+Code and data for the OASST-ETC (Open Assistant Eye Tracking Corpus) Dataset, which provides eye-tracking data for analyzing human reading patterns of Large Language Model responses. This repository contains the data and analysis code for our paper "Alignment Signals from Eye-tracking Analysis of LLM Responses".
 
 
 ## Dependencies
