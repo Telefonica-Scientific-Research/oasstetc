@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 23 11:12:48 2024
-
-@author: id05278
-"""
-
 #%% Import packages
 import os, glob, warnings, json
 import pandas as pd
@@ -14,11 +7,13 @@ from scipy.stats import ttest_rel
 import numpy as np
 warnings.filterwarnings('ignore')
 plt.rcParams.update({'font.size': 18})  # Adjusted font size
-
+import pathlib
 # Base path to the datasets - Modify to convenience
+parent_path = str(pathlib.Path(__file__).parent.resolve().parent.resolve())
+
 base_paths = {
-    'real': r'C:\Users\id05278\Documents\GitHub\ETHAPT\gaze_features_real',
-    'synthetic': r'C:\Users\id05278\Documents\GitHub\ETHAPT\gaze_features_synthetic'
+    'real': parent_path + "/oasstetc_data/gaze_features_real/",
+    'synthetic': parent_path + "/oasstetc_data/gaze_features_synthetic/"
 }
 
 # Metrics to accumulate for real and synthetic data

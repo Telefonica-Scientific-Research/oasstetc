@@ -1,11 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep  4 13:17:21 2024
-
-@author: id05278
-"""
-
 #%% Import packages
+import pathlib
 import os, glob, warnings, mne
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -16,8 +10,10 @@ from datetime import datetime, timezone, timedelta
 
 mne.set_log_level("WARNING")
 warnings.filterwarnings('ignore')
+parent_path = str(pathlib.Path(__file__).parent.resolve().parent.resolve())
 
-base_path = r'C:\Users\id05278\Documents\GitHub\ETHAPT\raw_data'
+
+base_path=  parent_path + "/oasstetc_data/raw_data/"
 
 # Metrics: Mean, std, max, min, median and range
 metrics = [

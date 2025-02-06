@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 22 13:08:12 2024
 
-@author: id05278
-"""
 
 #%% Import packages
+import pathlib
 import os, glob, warnings
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -15,9 +12,11 @@ from scipy.stats import ttest_rel
 warnings.filterwarnings('ignore')
 plt.rcParams.update({'font.size': 16})
 
+parent_path = str(pathlib.Path(__file__).parent.resolve().parent.resolve())
 
-## REMINDER: MODIFY PATH WHERE THE DATA IS
-base_path = r'C:\Users\id05278\Documents\GitHub\ETHAPT\raw_data' # MODIFY PATH TO CONVENIENCE
+
+base_path=  parent_path + "/oasstetc_data/raw_data/"
+
 
 palette_colors = [
     "#8cc5e3",  # Original Blue
