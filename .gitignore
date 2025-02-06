@@ -170,3 +170,4 @@ eyetrackpy/data_generator/fixations_predictor_trained_1/T5-tokenizer-BiLSTM-TRT-
 eyetrackpy/data_generator/fixations_predictor_trained_2/model.pth
 cache/
 process_et_data/model/__pycache__/eye_tracking_analyzer.cpython-310.pyc
+process_et_data/model/__pycache__/eye_tracking_analyzer.cpython-310.pyc
