@@ -411,6 +411,9 @@ class EyeTrackingAnalyser:
                 user_set_trial_dic["all"].append(trial)
                 if len(wor_cor) == 3:
                     user_set_trial_dic["complete"].append(trial)
+            #make sure add the chosen and rejected of the trials that are complete
+            completed = [str(trial).split(".")[0] for trial in user_set_trial_dic["complete"]]
+            user_set_trial_dic["complete"] = [trial for trial in user_set_trial_dic["all"] if str(trial).split(".")[0] in completed]
             save_to_json(
                 user_set_trial_dic, filename=path_save_set + "/info_trials.json"
             )
