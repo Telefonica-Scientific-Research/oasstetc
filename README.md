@@ -12,6 +12,22 @@ Code and data for the OASST-ETC (Open Assistant Eye Tracking Corpus) Dataset, wh
   - HuggingFace Hub
   - PyTorch
 
+## Installation
+
+To install and run the project:
+
+1. Clone the repository
+2. Create a virtual environment
+3. Install the required dependencies from requirements.txt
+4. Install the tokenizer aligner package:
+
+```bash
+pip install git+https://github.com/anlopez94/tokenizer_aligner.git@v1.0.0
+```
+5. Install the eyetrackpy package:
+```bash
+pip install git+https://github.com/anlopez94/eyetrackpy.git@v1.0.0
+```
 
 ### oasstetc_data
 The oasstetc_data directory contains the following subdirectories:
