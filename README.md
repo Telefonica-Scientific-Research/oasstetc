@@ -212,5 +212,20 @@ The oasstetc_data directory contains the following subdirectories:
             * Standard attention: attention/modelname/results/[chosen|rejected]/
             * Reward attention: attention_reward/modelname/results/[chosen|rejected]/
 
+## Citation
+
+If you find this work useful for your research, please cite our paper:
+
+```bibtex
+@inproceedings{Lopez-Cardona2025OASST,
+  title     = {{OASST-ETC} Dataset: Alignment Signals from Eye-tracking Analysis of {LLM} Responses},
+  author    = {L{\'o}pez-Cardona, {\'A}ngela and Idesis, Sebasti{\'a}n and Barreda-Ángeles, Miguel and Abadal, Sergi and Arapakis, Ioannis},
+  booktitle = {Proceedings of the 2025 ACM Symposium on Eye Tracking Research \& Applications ({ETRA})},
+  year      = {2025},
+  location  = {Tokyo, Japan},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  note      = {Presented at ETRA 2025, May 26--29, 2025}
+}
 
 
