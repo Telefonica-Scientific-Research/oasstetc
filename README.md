@@ -22,11 +22,11 @@ To install and run the project:
 4. Install the tokenizer aligner package:
 
 ```bash
-pip install git+https://github.com/anlopez94/tokenizer_aligner.git@v1.0.0
+pip install git+https://github.com/anlop66/tokenizer_aligner.git@v1.0.0
 ```
 5. Install the eyetrackpy package:
 ```bash
-pip install git+https://github.com/anlopez94/eyetrackpy.git@v1.0.0
+pip install git+https://github.com/anlop66/eyetrackpy.git@v1.0.0
 ```
 
 ### oasstetc_data
