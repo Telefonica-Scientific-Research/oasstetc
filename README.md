@@ -61,7 +61,7 @@ The oasstetc_data directory contains the following subdirectories:
   - Main functionality for processing eye tracking data and generating reading measures
   - Contains classes for handling text and image-based eye tracking data
 
-  ## Assign fixations to words:
+  #### Assign fixations to words:
 
   For each user and session, we have:
   * 1 file with fixation data: one row for each fixation. We read X, Y coordinates to position it on the screen. We use features such as the number of seconds and pupil dilation.
@@ -107,7 +107,7 @@ The oasstetc_data directory contains the following subdirectories:
    
 
 ### analyse_attention
-  ## Compute attention of each model:
+  #### Compute attention of each model:
   - In this folder we can compute the attention of different transformer models and compare it with the reading measures.
 
   - Computing attention per models and per layer:
