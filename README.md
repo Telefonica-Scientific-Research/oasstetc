@@ -227,5 +227,9 @@ If you find this work useful for your research, please cite our paper:
   address   = {New York, NY, USA},
   note      = {Presented at ETRA 2025, May 26--29, 2025}
 }
+```
+## License
 
-
+© 2025 Telefónica Innovación Digital.  
+Released under the GNU Lesser General Public License v3.0 (LGPLv3).  
+See [LICENSE](./LICENSE) for details.
