@@ -219,7 +219,7 @@ If you find this work useful for your research, please cite our paper:
 ```bibtex
 @inproceedings{Lopez-Cardona2025OASST,
   title     = {{OASST-ETC} Dataset: Alignment Signals from Eye-tracking Analysis of {LLM} Responses},
-  author    = {L{\'o}pez-Cardona, {\'A}ngela and Idesis, Sebasti{\'a}n and Barreda-Ángeles, Miguel and Abadal, Sergi and Arapakis, Ioannis},
+  author    = {Lopez-Cardona, Angela and Idesis, Sebastian and Barreda-Ángeles, Miguel and Abadal, Sergi and Arapakis, Ioannis},
   booktitle = {Proceedings of the 2025 ACM Symposium on Eye Tracking Research \& Applications ({ETRA})},
   year      = {2025},
   location  = {Tokyo, Japan},
